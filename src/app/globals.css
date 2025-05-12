@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.btn_primary {
+  @apply text-white px-4 py-2
+}
+
+.btn_secondary {
+  @apply text-black bg-white rounded-full px-4 py-2
+}
+
+.btn_tertiary {
+  @apply bg-purple-500 font-bold text-black px-4 py-2 rounded-full
+}
+
